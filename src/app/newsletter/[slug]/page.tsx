@@ -35,12 +35,12 @@ export async function generateMetadata({
     keywords:
       "AI newsletter, founder insights, startup AI, entrepreneurship, AI strategies",
     alternates: {
-      canonical: `https://aifor-founders.com/newsletter/${post.slug}`,
+      canonical: `https://aiforfounders.co/newsletter/${post.slug}`,
     },
     openGraph: {
       title: post.title,
       description: post.excerpt,
-      url: `https://aifor-founders.com/newsletter/${post.slug}`,
+      url: `https://aiforfounders.co/newsletter/${post.slug}`,
       type: "article",
       publishedTime: new Date(post.date).toISOString(),
       authors: ["Ryan Estes"],
@@ -83,12 +83,12 @@ export default function NewsletterPostPage({
     headline: post.title,
     description: post.excerpt,
     datePublished: new Date(post.date).toISOString(),
-    url: `https://aifor-founders.com/newsletter/${post.slug}`,
+    url: `https://aiforfounders.co/newsletter/${post.slug}`,
     image: imageSrc,
     author: {
       "@type": "Person",
       name: "Ryan Estes",
-      url: "https://aifor-founders.com/about",
+      url: "https://aiforfounders.co/about",
       sameAs: [
         "https://ryanestes.info",
         "https://www.linkedin.com/in/ryanestesco/",
@@ -97,15 +97,15 @@ export default function NewsletterPostPage({
     publisher: {
       "@type": "Organization",
       name: "AI for Founders",
-      url: "https://aifor-founders.com",
+      url: "https://aiforfounders.co",
       logo: {
         "@type": "ImageObject",
-        url: "https://aifor-founders.com/lovable-uploads/AIFF_Art.png",
+        url: "https://aiforfounders.co/lovable-uploads/AIFF_Art.png",
       },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://aifor-founders.com/newsletter/${post.slug}`,
+      "@id": `https://aiforfounders.co/newsletter/${post.slug}`,
     },
   };
 

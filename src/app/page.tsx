@@ -19,12 +19,12 @@ export const metadata: Metadata = {
     "AI for Founders is your ultimate resource for building with AI. Join 20,000+ startup founders, CEOs, and entrepreneurs with our Top 100 Entrepreneurship podcast, weekly newsletter, and hands-on workshops.",
   keywords:
     "AI for founders, artificial intelligence for startups, AI tools, AI newsletter, AI podcast for entrepreneurs, startup AI strategies, business automation, AI workshops, founder education, entrepreneurship AI",
-  alternates: { canonical: "https://aifor-founders.com" },
+  alternates: { canonical: "https://aiforfounders.co" },
   openGraph: {
     title: "AI for Founders - Weekly Newsletter, Podcast & Workshops",
     description:
       "Join 20,000+ startup founders building with AI. Top 100 Entrepreneurship podcast, weekly newsletter, and hands-on workshops.",
-    url: "https://aifor-founders.com",
+    url: "https://aiforfounders.co",
     type: "website",
   },
 };

@@ -14,11 +14,11 @@ export const metadata: Metadata = {
     "Turn attention into assets. Reach 20,000+ engaged startup founders across email, audio, and video in one coordinated campaign. Guaranteed distribution, native host integration, and reusable content.",
   keywords:
     "AI podcast sponsorship, newsletter sponsorship, founder audience, startup advertising, podcast ads, AI for founders partnership",
-  alternates: { canonical: "https://aifor-founders.com/sponsorships" },
+  alternates: { canonical: "https://aiforfounders.co/sponsorships" },
   openGraph: {
     title: "Sponsorship Opportunities - AI for Founders",
     description: "Reach 20,000+ engaged startup founders across email, audio, and video.",
-    url: "https://aifor-founders.com/sponsorships",
+    url: "https://aiforfounders.co/sponsorships",
   },
 };
 

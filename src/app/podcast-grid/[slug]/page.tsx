@@ -45,12 +45,12 @@ export async function generateMetadata({
     title: episode.title,
     description: episode.description || `Listen to this episode of the AI for Founders podcast.`,
     alternates: {
-      canonical: `https://aifor-founders.com/podcast-grid/${params.slug}`,
+      canonical: `https://aiforfounders.co/podcast-grid/${params.slug}`,
     },
     openGraph: {
       title: episode.title,
       description: episode.description,
-      url: `https://aifor-founders.com/podcast-grid/${params.slug}`,
+      url: `https://aiforfounders.co/podcast-grid/${params.slug}`,
       type: "article",
       ...(artwork ? { images: [{ url: artwork, width: 1200, height: 630, alt: episode.title }] } : {}),
       ...(pubDate ? { publishedTime: pubDate } : {}),
@@ -93,7 +93,7 @@ export default async function EpisodeDetailPage({
     "@type": "PodcastEpisode",
     name: episode.title,
     description: episode.description,
-    url: `https://aifor-founders.com/podcast-grid/${params.slug}`,
+    url: `https://aiforfounders.co/podcast-grid/${params.slug}`,
     datePublished: episode.publishDate
       ? new Date(episode.publishDate).toISOString()
       : undefined,
@@ -108,12 +108,12 @@ export default async function EpisodeDetailPage({
     partOfSeries: {
       "@type": "PodcastSeries",
       name: "AI for Founders",
-      url: "https://aifor-founders.com/podcast-grid",
+      url: "https://aiforfounders.co/podcast-grid",
     },
     author: {
       "@type": "Person",
       name: "Ryan Estes",
-      url: "https://aifor-founders.com/about",
+      url: "https://aiforfounders.co/about",
     },
   };
 

@@ -17,7 +17,7 @@ export const organizationSchema = {
   "contactPoint": {
     "@type": "ContactPoint",
     "contactType": "customer service",
-    "email": "contact@aifor-founders.com"
+    "email": "contact@aiforfounders.co"
   },
   "sameAs": [
     "https://open.spotify.com/show/4YN2z0kiz5cj2xxJ6xF5va",

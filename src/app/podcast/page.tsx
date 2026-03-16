@@ -7,11 +7,11 @@ export const metadata: Metadata = {
     "Listen to AI for Founders podcast — Top 5% of all podcasts, Top 100 in Entrepreneurship. Weekly interviews with successful founders, expert AI strategies, and actionable insights for entrepreneurs building AI-powered businesses.",
   keywords:
     "AI podcast, founders podcast, artificial intelligence business, startup AI strategies, entrepreneur podcast, top entrepreneurship podcast, AI business insights, founder interviews",
-  alternates: { canonical: "https://aifor-founders.com/podcast" },
+  alternates: { canonical: "https://aiforfounders.co/podcast" },
   openGraph: {
     title: "AI for Founders Podcast - Top 100 Entrepreneurship Podcast",
     description: "Top 5% of all podcasts. Weekly AI insights for founders navigating the AI revolution.",
-    url: "https://aifor-founders.com/podcast",
+    url: "https://aiforfounders.co/podcast",
     type: "website",
   },
 };

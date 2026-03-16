@@ -32,12 +32,12 @@ export async function generateMetadata({
     description: tool.description,
     keywords: `${tool.name}, AI tool, ${category}, ${theme}, startup tools, founder tools`,
     alternates: {
-      canonical: `https://aifor-founders.com/tools/${params.slug}`,
+      canonical: `https://aiforfounders.co/tools/${params.slug}`,
     },
     openGraph: {
       title: `${tool.name} - AI Tool Review | AI for Founders`,
       description: tool.description,
-      url: `https://aifor-founders.com/tools/${params.slug}`,
+      url: `https://aiforfounders.co/tools/${params.slug}`,
       type: "article",
       ...(faviconUrl ? { images: [{ url: faviconUrl, alt: tool.name }] } : {}),
     },
@@ -77,7 +77,7 @@ export default function ToolDetailPage({
       author: {
         "@type": "Person",
         name: "Ryan Estes",
-        url: "https://aifor-founders.com/about",
+        url: "https://aiforfounders.co/about",
       },
       reviewBody: tool.description,
     },

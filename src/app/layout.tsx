@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   },
   description:
     "AI for Founders is your ultimate resource for building with AI. Join 20,000+ startup founders with our Top 100 Entrepreneurship podcast, weekly newsletter, and hands-on workshops.",
-  metadataBase: new URL("https://aifor-founders.com"),
+  metadataBase: new URL("https://aiforfounders.co"),
   openGraph: {
     siteName: "AI for Founders",
     type: "website",

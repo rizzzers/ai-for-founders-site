@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Submit your brand information and marketing assets to begin your sponsorship journey with AI for Founders podcast and newsletter.",
   keywords: "brand onboarding, sponsorship application, AI podcast advertising, newsletter advertising",
-  alternates: { canonical: "https://aifor-founders.com/brand-onboarding" },
+  alternates: { canonical: "https://aiforfounders.co/brand-onboarding" },
 };
 
 export default function BrandOnboardingPage() {

@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
       { userAgent: "facebookexternalhit", allow: "/" },
       { userAgent: "*", allow: "/" },
     ],
-    sitemap: "https://aiforfounders.com/sitemap.xml",
+    sitemap: "https://aiforfounders.co/sitemap.xml",
   };
 }

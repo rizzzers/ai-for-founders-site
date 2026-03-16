@@ -4,7 +4,7 @@ import { getAllTools, generateToolSlug } from "@/data/tools";
 import { fetchRssFeed } from "@/lib/fetchRssFeed";
 import { generateSlug } from "@/utils/slugify";
 
-const BASE = "https://aiforfounders.com";
+const BASE = "https://aiforfounders.co";
 
 const staticRoutes: MetadataRoute.Sitemap = [
   { url: BASE, lastModified: new Date(), changeFrequency: "daily", priority: 1.0 },

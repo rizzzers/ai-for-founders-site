@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   description:
     "Meet Ryan Estes, co-founder of eight-figure bootstrapped agency Kitcaster (acquired by Moburst 2025) and creator of AI for Founders podcast and newsletter.",
   keywords: "Ryan Estes, entrepreneur, Kitcaster founder, AI for Founders creator, Denver startup founder",
-  alternates: { canonical: "https://aifor-founders.com/about" },
+  alternates: { canonical: "https://aiforfounders.co/about" },
   openGraph: {
     title: "About Ryan Estes - Founder of AI for Founders",
     description:
       "Co-founder of eight-figure bootstrapped agency Kitcaster and creator of AI for Founders podcast and newsletter.",
-    url: "https://aifor-founders.com/about",
+    url: "https://aiforfounders.co/about",
   },
 };
 
@@ -48,7 +48,7 @@ const personSchema = {
   worksFor: { "@type": "Organization", name: "Kitcaster" },
   description:
     "Co-founder of eight-figure bootstrapped agency Kitcaster and creator of AI for Founders podcast and newsletter.",
-  url: "https://aifor-founders.com/about",
+  url: "https://aiforfounders.co/about",
   sameAs: ["https://ryanestes.info", "https://www.linkedin.com/in/ryanestesco/"],
   address: { "@type": "PostalAddress", addressLocality: "Denver", addressRegion: "CO" },
 };
